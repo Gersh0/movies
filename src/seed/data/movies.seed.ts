@@ -1,6 +1,4 @@
-import { Movie } from "src/movie/interfaces/movie.interface";
-
-export const MOVIES_SEED: Movie[] = [
+export const MOVIES_SEED = [
     {
         "id": 1,
         "name": "Inception",
