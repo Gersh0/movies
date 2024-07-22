@@ -1,59 +1,64 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
-import { CreateMovieDto } from './dto/create-movie.dto';
-import { UpdateMovieDto } from './dto/update-movie.dto';
-import { Movie } from './interfaces/movie.interface';
+import { BadRequestException, Injectable, InternalServerErrorException, NotFoundException } from '@nestjs/common';
+import { CreateMovieDto, UpdateMovieDto } from './dto';
+import { Movie } from './entities/movie.entity';
+import { InjectModel } from '@nestjs/mongoose';
+import { isValidObjectId, Model } from 'mongoose';
 
 @Injectable()
 export class MovieService {
 
-  private movies: Movie[] = [];
+  constructor(
+    @InjectModel(Movie.name)
+    private movieModel: Model<Movie>
+  ) { };
 
-  create(createMovieDto: CreateMovieDto) {
-    const movie = {
-      id: this.movies.length + 1,
-      ...createMovieDto
-    };
+  private handleError(error: any) {
+    if (error.code === 11000) {
+      throw new BadRequestException(`Mission already exists in the database ${JSON.stringify(error.keyValue)}`);
+    }
+    console.log(error);
+    throw new InternalServerErrorException(`Can't create mission`);
+  }
 
-    this.movies.push(movie);
+  async create(createMovieDto: CreateMovieDto) {
+    try {
+      const movie = await this.movieModel.create(createMovieDto);
+      return `Movie ${movie.name} created!`
+    } catch (error) {
+      this.handleError(error);
+    }
+  }
 
+  async findAll() {
+    return this.movieModel.find();
+  }
+
+  async findOne(term: string) {
+    let query = !isNaN(+term) ? { id: term } :
+      isValidObjectId(term) ? { _id: term } :
+        { name: term };
+
+    let movie = await this.movieModel.findOne(query);
+
+    if (!movie)
+      throw new NotFoundException(`Movie with term ${term} not found`);
     return movie;
   }
 
-  findAll() {
-    return this.movies;
+  async update(term: string, updateMovieDto: UpdateMovieDto) {
+    const mission = await this.findOne(term);
+    try {
+      await mission.updateOne(updateMovieDto, { new: true });
+      return { ...mission.toJSON(), ...updateMovieDto };
+    } catch (error) {
+      this.handleError(error);
+    }
   }
 
-  findOne(id: number) {
-
-    const movie = this.movies.find(movie => movie.id === id);
-
-    if (!movie) throw new NotFoundException(`Movie with id ${id} not found`);
-
-    return movie;
-
-  }
-
-  update(id: number, updateMovieDto: UpdateMovieDto) {
-    if (updateMovieDto.id && updateMovieDto.id !== id) throw new BadRequestException('Id cannot be changed');
-    let movieDB = this.findOne(id);
-    this.movies = this.movies.map(movie => {
-      if (movie.id === id) {
-        movieDB = { ...movieDB, ...updateMovieDto, id };
-        return movieDB;
-      }
-      return movie;
-    });
-
-    return movieDB;
-
-  }
-
-  remove(id: number) {
-    this.movies = this.movies.filter(movie => movie.id !== id);
-    return { message: `Movie with id ${id} removed` };
-  }
-
-  fillMoviesWithSeed(movies: Movie[]) {
-    this.movies = movies;
+  async remove(id: string) {
+    const { deletedCount } = await this.movieModel.deleteOne({ id: id });
+    if (deletedCount === 0)
+      throw new BadRequestException(`Mission with id ${id} not found`);
+    return `Mission with id ${id} deleted`;
   }
 }
