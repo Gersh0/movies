@@ -1,0 +1,634 @@
+[
+  {
+    "name": "Inception",
+    "duration": 120,
+    "views": 195,
+    "valoration": 4.5,
+    "genre": "Action",
+    "author_id": 1
+  },
+  {
+    "name": "The Matrix",
+    "duration": 136,
+    "views": 180,
+    "valoration": 4.3,
+    "genre": "Science Fiction",
+    "author_id": 2
+  },
+  {
+    "name": "Pulp Fiction",
+    "duration": 154,
+    "views": 170,
+    "valoration": 4.4,
+    "genre": "Crime",
+    "author_id": 3
+  },
+  {
+    "name": "The Dark Knight",
+    "duration": 152,
+    "views": 200,
+    "valoration": 4.7,
+    "genre": "Action",
+    "author_id": 4
+  },
+  {
+    "name": "Forrest Gump",
+    "duration": 142,
+    "views": 190,
+    "valoration": 4.6,
+    "genre": "Drama",
+    "author_id": 5
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "duration": 142,
+    "views": 185,
+    "valoration": 4.7,
+    "genre": "Drama",
+    "author_id": 6
+  },
+  {
+    "name": "Fight Club",
+    "duration": 139,
+    "views": 175,
+    "valoration": 4.4,
+    "genre": "Drama",
+    "author_id": 7
+  },
+  {
+    "name": "Goodfellas",
+    "duration": 146,
+    "views": 165,
+    "valoration": 4.3,
+    "genre": "Crime",
+    "author_id": 8
+  },
+  {
+    "name": "The Lord of the Rings: The Return of the King",
+    "duration": 201,
+    "views": 195,
+    "valoration": 4.8,
+    "genre": "Adventure",
+    "author_id": 9
+  },
+  {
+    "name": "The Godfather",
+    "duration": 175,
+    "views": 170,
+    "valoration": 4.6,
+    "genre": "Crime",
+    "author_id": 10
+  },
+  {
+    "name": "The Godfather: Part II",
+    "duration": 200,
+    "views": 160,
+    "valoration": 4.5,
+    "genre": "Crime",
+    "author_id": 10
+  },
+  {
+    "name": "The Dark Knight Rises",
+    "duration": 164,
+    "views": 190,
+    "valoration": 4.4,
+    "genre": "Action",
+    "author_id": 4
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "duration": 178,
+    "views": 185,
+    "valoration": 4.5,
+    "genre": "Adventure",
+    "author_id": 9
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "duration": 118,
+    "views": 175,
+    "valoration": 4.3,
+    "genre": "Thriller",
+    "author_id": 11
+  },
+  {
+    "name": "The Departed",
+    "duration": 151,
+    "views": 170,
+    "valoration": 4.4,
+    "genre": "Crime",
+    "author_id": 12
+  },
+  {
+    "name": "Gladiator",
+    "duration": 155,
+    "views": 160,
+    "valoration": 4.5,
+    "genre": "Action",
+    "author_id": 13
+  },
+  {
+    "name": "The Green Mile",
+    "duration": 189,
+    "views": 180,
+    "valoration": 4.6,
+    "genre": "Drama",
+    "author_id": 14
+  },
+  {
+    "name": "Inglourious Basterds",
+    "duration": 153,
+    "views": 165,
+    "valoration": 4.4,
+    "genre": "War",
+    "author_id": 15
+  },
+  {
+    "name": "Back to the Future",
+    "duration": 116,
+    "views": 175,
+    "valoration": 4.5,
+    "genre": "Adventure",
+    "author_id": 16
+  },
+  {
+    "name": "The Prestige",
+    "duration": 130,
+    "views": 170,
+    "valoration": 4.4,
+    "genre": "Mystery",
+    "author_id": 1
+  },
+  {
+    "name": "The Lion King",
+    "duration": 88,
+    "views": 200,
+    "valoration": 4.7,
+    "genre": "Animation",
+    "author_id": 17
+  },
+  {
+    "name": "The Matrix Reloaded",
+    "duration": 138,
+    "views": 185,
+    "valoration": 4.2,
+    "genre": "Science Fiction",
+    "author_id": 2
+  },
+  {
+    "name": "Braveheart",
+    "duration": 178,
+    "views": 175,
+    "valoration": 4.5,
+    "genre": "War",
+    "author_id": 18
+  },
+  {
+    "name": "American History X",
+    "duration": 119,
+    "views": 170,
+    "valoration": 4.4,
+    "genre": "Drama",
+    "author_id": 19
+  },
+  {
+    "name": "A Clockwork Orange",
+    "duration": 136,
+    "views": 165,
+    "valoration": 4.3,
+    "genre": "Crime",
+    "author_id": 20
+  },
+  {
+    "name": "Reservoir Dogs",
+    "duration": 99,
+    "views": 160,
+    "valoration": 4.4,
+    "genre": "Crime",
+    "author_id": 3
+  },
+  {
+    "name": "Amelie",
+    "duration": 122,
+    "views": 155,
+    "valoration": 4.5,
+    "genre": "Romance",
+    "author_id": 21
+  },
+  {
+    "name": "The Shining",
+    "duration": 146,
+    "views": 150,
+    "valoration": 4.3,
+    "genre": "Horror",
+    "author_id": 22
+  },
+  {
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "duration": 108,
+    "views": 145,
+    "valoration": 4.4,
+    "genre": "Romance",
+    "author_id": 23
+  },
+  {
+    "name": "Oldboy",
+    "duration": 120,
+    "views": 140,
+    "valoration": 4.5,
+    "genre": "Mystery",
+    "author_id": 24
+  },
+  {
+    "name": "2001: A Space Odyssey",
+    "duration": 149,
+    "views": 135,
+    "valoration": 4.3,
+    "genre": "Science Fiction",
+    "author_id": 25
+  },
+  {
+    "name": "Requiem for a Dream",
+    "duration": 102,
+    "views": 130,
+    "valoration": 4.4,
+    "genre": "Drama",
+    "author_id": 26
+  },
+  {
+    "name": "The Departed",
+    "duration": 151,
+    "views": 125,
+    "valoration": 4.5,
+    "genre": "Thriller",
+    "author_id": 12
+  },
+  {
+    "name": "The Pianist",
+    "duration": 150,
+    "views": 120,
+    "valoration": 4.4,
+    "genre": "War",
+    "author_id": 27
+  },
+  {
+    "name": "The Lives of Others",
+    "duration": 137,
+    "views": 115,
+    "valoration": 4.3,
+    "genre": "Drama",
+    "author_id": 28
+  },
+  {
+    "name": "Amadeus",
+    "duration": 160,
+    "views": 110,
+    "valoration": 4.4,
+    "genre": "Biography",
+    "author_id": 29
+  },
+  {
+    "name": "The Grand Budapest Hotel",
+    "duration": 99,
+    "views": 105,
+    "valoration": 4.5,
+    "genre": "Comedy",
+    "author_id": 30
+  },
+  {
+    "name": "Monty Python and the Holy Grail",
+    "duration": 91,
+    "views": 100,
+    "valoration": 4.3,
+    "genre": "Adventure",
+    "author_id": 31
+  },
+  {
+    "name": "The Big Lebowski",
+    "duration": 117,
+    "views": 95,
+    "valoration": 4.4,
+    "genre": "Comedy",
+    "author_id": 32
+  },
+  {
+    "name": "Inception",
+    "duration": 120,
+    "views": 90,
+    "valoration": 4.5,
+    "genre": "Action",
+    "author_id": 1
+  },
+  {
+    "name": "The Room",
+    "duration": 99,
+    "views": 85,
+    "valoration": 3.7,
+    "genre": "Drama",
+    "author_id": 33
+  },
+  {
+    "name": "Troll 2",
+    "duration": 95,
+    "views": 80,
+    "valoration": 3.9,
+    "genre": "Horror",
+    "author_id": 34
+  },
+  {
+    "name": "Parasite",
+    "duration": 132,
+    "views": 195,
+    "valoration": 4.6,
+    "genre": "Thriller",
+    "author_id": 35
+  },
+  {
+    "name": "Joker",
+    "duration": 122,
+    "views": 190,
+    "valoration": 4.8,
+    "genre": "Crime",
+    "author_id": 36
+  },
+  {
+    "name": "Avengers: Endgame",
+    "duration": 181,
+    "views": 200,
+    "valoration": 4.9,
+    "genre": "Action",
+    "author_id": 37
+  },
+  {
+    "name": "The Lion King",
+    "duration": 118,
+    "views": 205,
+    "valoration": 4.7,
+    "genre": "Adventure",
+    "author_id": 38
+  },
+  {
+    "name": "Toy Story 4",
+    "duration": 100,
+    "views": 195,
+    "valoration": 4.5,
+    "genre": "Animation",
+    "author_id": 39
+  },
+  {
+    "name": "Frozen II",
+    "duration": 104,
+    "views": 190,
+    "valoration": 4.6,
+    "genre": "Adventure",
+    "author_id": 40
+  },
+  {
+    "name": "Captain Marvel",
+    "duration": 123,
+    "views": 195,
+    "valoration": 4.3,
+    "genre": "Action",
+    "author_id": 41
+  },
+  {
+    "name": "Spider-Man: Far From Home",
+    "duration": 129,
+    "views": 200,
+    "valoration": 4.4,
+    "genre": "Action",
+    "author_id": 42
+  },
+  {
+    "name": "Jumanji: The Next Level",
+    "duration": 123,
+    "views": 195,
+    "valoration": 4.2,
+    "genre": "Adventure",
+    "author_id": 43
+  },
+  {
+    "name": "It Chapter Two",
+    "duration": 169,
+    "views": 190,
+    "valoration": 4.1,
+    "genre": "Horror",
+    "author_id": 44
+  },
+  {
+    "name": "Us",
+    "duration": 116,
+    "views": 195,
+    "valoration": 4.3,
+    "genre": "Thriller",
+    "author_id": 45
+  },
+  {
+    "name": "Once Upon a Time in Hollywood",
+    "duration": 161,
+    "views": 200,
+    "valoration": 4.5,
+    "genre": "Comedy",
+    "author_id": 46
+  },
+  {
+    "name": "Django Unchained",
+    "duration": 165,
+    "views": 205,
+    "valoration": 4.6,
+    "genre": "Western",
+    "author_id": 47
+  },
+  {
+    "name": "1917",
+    "duration": 119,
+    "views": 195,
+    "valoration": 4.8,
+    "genre": "War",
+    "author_id": 48
+  },
+  {
+    "name": "Ford v Ferrari",
+    "duration": 152,
+    "views": 190,
+    "valoration": 4.4,
+    "genre": "Biography",
+    "author_id": 49
+  },
+  {
+    "name": "Jojo Rabbit",
+    "duration": 108,
+    "views": 195,
+    "valoration": 4.5,
+    "genre": "Comedy",
+    "author_id": 50
+  },
+  {
+    "name": "Little Women",
+    "duration": 135,
+    "views": 200,
+    "valoration": 4.6,
+    "genre": "Drama",
+    "author_id": 51
+  },
+  {
+    "name": "The Irishman",
+    "duration": 209,
+    "views": 205,
+    "valoration": 4.7,
+    "genre": "Crime",
+    "author_id": 52
+  },
+  {
+    "name": "Marriage Story",
+    "duration": 137,
+    "views": 195,
+    "valoration": 4.5,
+    "genre": "Drama",
+    "author_id": 53
+  },
+  {
+    "name": "Parasite",
+    "duration": 132,
+    "views": 190,
+    "valoration": 4.6,
+    "genre": "Thriller",
+    "author_id": 35
+  },
+  {
+    "name": "Joker",
+    "duration": 122,
+    "views": 185,
+    "valoration": 4.8,
+    "genre": "Crime",
+    "author_id": 36
+  },
+  {
+    "name": "Avengers: Endgame",
+    "duration": 181,
+    "views": 180,
+    "valoration": 4.9,
+    "genre": "Action",
+    "author_id": 37
+  },
+  {
+    "name": "The Lion King",
+    "duration": 118,
+    "views": 175,
+    "valoration": 4.7,
+    "genre": "Adventure",
+    "author_id": 38
+  },
+  {
+    "name": "Toy Story 4",
+    "duration": 100,
+    "views": 170,
+    "valoration": 4.5,
+    "genre": "Animation",
+    "author_id": 39
+  },
+  {
+    "name": "Frozen II",
+    "duration": 104,
+    "views": 165,
+    "valoration": 4.6,
+    "genre": "Adventure",
+    "author_id": 40
+  },
+  {
+    "name": "Captain Marvel",
+    "duration": 123,
+    "views": 160,
+    "valoration": 4.3,
+    "genre": "Action",
+    "author_id": 41
+  },
+  {
+    "name": "Spider-Man: Far From Home",
+    "duration": 129,
+    "views": 155,
+    "valoration": 4.4,
+    "genre": "Action",
+    "author_id": 42
+  },
+  {
+    "name": "Jumanji: The Next Level",
+    "duration": 123,
+    "views": 150,
+    "valoration": 4.2,
+    "genre": "Adventure",
+    "author_id": 43
+  },
+  {
+    "name": "It Chapter Two",
+    "duration": 169,
+    "views": 145,
+    "valoration": 4.1,
+    "genre": "Horror",
+    "author_id": 44
+  },
+  {
+    "name": "Us",
+    "duration": 116,
+    "views": 140,
+    "valoration": 4.3,
+    "genre": "Thriller",
+    "author_id": 45
+  },
+  {
+    "name": "Once Upon a Time in Hollywood",
+    "duration": 161,
+    "views": 135,
+    "valoration": 4.5,
+    "genre": "Comedy",
+    "author_id": 46
+  },
+  {
+    "name": "Django Unchained",
+    "duration": 165,
+    "views": 130,
+    "valoration": 4.6,
+    "genre": "Western",
+    "author_id": 47
+  },
+  {
+    "name": "1917",
+    "duration": 119,
+    "views": 125,
+    "valoration": 4.8,
+    "genre": "War",
+    "author_id": 48
+  },
+  {
+    "name": "Ford v Ferrari",
+    "duration": 152,
+    "views": 120,
+    "valoration": 4.4,
+    "genre": "Biography",
+    "author_id": 49
+  },
+  {
+    "name": "Jojo Rabbit",
+    "duration": 108,
+    "views": 115,
+    "valoration": 4.5,
+    "genre": "Comedy",
+    "author_id": 50
+  },
+  {
+    "name": "Little Women",
+    "duration": 135,
+    "views": 110,
+    "valoration": 4.6,
+    "genre": "Drama",
+    "author_id": 51
+  },
+  {
+    "name": "The Irishman",
+    "duration": 209,
+    "views": 105,
+    "valoration": 4.7,
+    "genre": "Crime",
+    "author_id": 52
+  }
+]
